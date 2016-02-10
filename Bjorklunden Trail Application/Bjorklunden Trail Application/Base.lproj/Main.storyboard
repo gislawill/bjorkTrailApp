@@ -1,0 +1,864 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="Dki-vc-hTp">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="Ub7-fS-77x">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="Dki-vc-hTp" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="KjW-DH-pAT">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="0.98577493670000005" green="1" blue="0.97579469249999995" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="I0T-aR-uw2"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="28v-KW-qtI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2051" y="-131"/>
+        </scene>
+        <!--How to Use-->
+        <scene sceneID="Tfh-lB-reS">
+            <objects>
+                <viewController id="HIc-od-XIc" customClass="howToUseViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="j4Q-uG-zKl">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_0008.PNG" id="EdM-wn-WXf">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Simply Tap a Pin.png" id="sdw-0D-Mjo">
+                                <rect key="frame" x="264" y="241" width="187" height="172"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5y0-eS-HWH">
+                                <rect key="frame" x="395" y="385" width="56" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="1xe-Tb-Ixt" kind="push" id="xpN-7V-AQe"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap &quot;Bjorklunden&quot; above to return to main screen" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Aj8-G1-J0R">
+                                <rect key="frame" x="20" y="71" width="206" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="How to Use" id="1D9-yT-OQp"/>
+                    <connections>
+                        <outlet property="view" destination="j4Q-uG-zKl" id="hg3-T9-OwI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BZf-3W-0af" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2051" y="-1401"/>
+        </scene>
+        <!--About View Controller-->
+        <scene sceneID="klO-2G-hcX">
+            <objects>
+                <viewController id="fE2-aP-LYX" customClass="AboutViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yAM-No-YkX">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="About Page.png" id="chr-hG-gKp">
+                                <rect key="frame" x="0.0" y="0.0" width="2304" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Bjorklunden Trail App" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="GC4-74-Xqe">
+                                <rect key="frame" x="20" y="227" width="504" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Funding the App" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="L5s-gU-c9N">
+                                <rect key="frame" x="20" y="62" width="253" height="106"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The People Behind the App" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="GhT-dP-Iu6">
+                                <rect key="frame" x="423" y="63" width="325" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="28" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="s61-6L-9iP">
+                                <rect key="frame" x="59" y="664" width="650" height="419"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">We built this app with a single purpose – to help you to get the most of your Björklunden experience. If you look forward to learning a bit about nature during your visit, we hope you enjoy our app. If you would prefer to use the trails to get away and contemplate, by all means switch off this tablet and take the time you need. !
+
+For those interested, we hope our app can show you what makes Björklunden so special. By pointing out the often small but always beautiful intricacies of nature, visitors can learn to appreciate their surrounding on a new level. Whether you use this app as a map, a photobook, or a nature tour, we’re happy to help you connect with nature in whatever way we can. It’s the small things that define nature's beauty and we hope to help you see some of the many little reasons we think Björklunden is so beautiful!</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="22" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hqb-IQ-FQq">
+                                <rect key="frame" x="59" y="510" width="650" height="547"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.13466597576530615" green="0.13466597576530615" blue="0.13466597576530615" alpha="0.38" colorSpace="calibratedRGB"/>
+                                <string key="text">This student-led project would not have been possible without the generous support of Lawrence University’s donor community. The Richard W. Bjornson Memorial Fund in addition to the Andrew W. Mellon Senior Experience Grant enabled the learning experience of students that created the app as well as the experience of every visitor to Björklunden who makes us of this app.
+
+Richard W. Bjornson, from Lawrence University’s Class of 1959, was a distinguished professor at Ohio State University in Columbus, Ohio focusing in Comparative Studies. He is survived by his wife, Aija Bjornson, and his son, Andris Bjornson. After his passing, a memorial fund was arranged by his Lawrence University classmates. Special thanks to his brother, Allen Bjornson, for assisting with this project.
+
+The Andrew W. Mellon Senior Experience Grant gives support to students conducting ambitious Senior Experience product. This grant is funded but the Mellon Foundation which supports educational ventures around the world. Andrew W. Mellon was a thriving entrepreneur in the early 1900’s and became the United State’s Secretary of the Treasury under Warren Harding and Herbert Hoover. The Foundation was established in 1940 and 1941 by Andrew W. Mellon’s children, Ailsa Mellon Bruce and Paul Mellon.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <string key="userLabel">Label - This student-led project would not have been possible without the generous support of Lawrence University’s donor community. The Richard W. Bjornson Memorial Fund in addition to the Andrew W. Mellon Senior Experience Grant enabled the learning experience of students that created the app as well as the experience of every visitor to Björklunden who makes us of this app.  Richard W. Bjornson, from Lawrence University’s Class of 1959, was a distinguished professor at Ohio State University in Columbus, Ohio focusing in Comparative Studies. He is survived by his wife, Aija Bjornson, and his son, Andris Bjornson. After his passing, a memorial fund was arranged by his Lawrence University classmates. Special thanks to his brother, Allen Bjornson, for assisting with this project.  The Andrew W. Mellon Senior Experience Grant gives support to students conducting ambitious Senior Experience product. This grant is funded but the Mellon Foundation which supports educational ventures around the world. Andrew W. Mellon was a thriving entrepreneur in the early 1900’s and became the United State’s Secretary of the Treasury under Warren Harding and Herbert Hoover. The Foundation was established in 1940 and 1941 by Andrew W. Mellon’s children, Ailsa Mellon Bruce and Paul Mellon.</string>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="25" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5if-Tc-IOK">
+                                <rect key="frame" x="59" y="532" width="650" height="467"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.076251594387755084" green="0.076251594387755084" blue="0.076251594387755084" alpha="0.31" colorSpace="calibratedRGB"/>
+                                <string key="text">William Gislason spent the summer of 2014 designing and constructing this app. While based at Lawrence University’s Appleton campus, William taught himself a variety of computer programs needed to construct an application that was not only educational but also user-friendly. A rising senior with an Environmental Studies and Biology double major, William was enabled to pursue interests outside of his past academic focus during the creation of this app such as computing programming, photography, and writing.
+
+Celeste Silling lived and worked at Bjorklunden over the summer of 2014, walking the trails and researching the area between shifts.  The task of creating the app allowed Celeste, a rising junior and a Biology major, to pursue her particular interest in botany and ecology, while also giving a unique insight into one of the commercial uses for such fields of study.
+
+These students were lucky the support and guidance of several of Lawrence University's staff. The director of Björklunden, Mark Breseman, not only first conceived of the a Björklunden virtual tour but gave invaluable support during the process of the app's creation. Mark recruited ecology professors Bart De Stasio and Alyssa Hakes to oversee the project. Their thoughtful and insightful guidance allowed the students the freedom to experiment though reminding them to focus on what matters - your experience. 
+
+We sincerely hope you enjoy our hard work!
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="5DT-Ef-HlV"/>
+                    <connections>
+                        <outlet property="image" destination="chr-hG-gKp" id="587-7b-Ql0"/>
+                        <outlet property="label1" destination="GC4-74-Xqe" id="Uk7-bV-j5w"/>
+                        <outlet property="label2" destination="L5s-gU-c9N" id="Mez-qm-At0"/>
+                        <outlet property="label3" destination="GhT-dP-Iu6" id="k0N-nq-OOW"/>
+                        <outlet property="textBlock1" destination="s61-6L-9iP" id="wdf-Wf-YzY"/>
+                        <outlet property="textBlock2" destination="hqb-IQ-FQq" id="QKQ-YD-MNn"/>
+                        <outlet property="textBlock3" destination="5if-Tc-IOK" id="Lf8-xX-Ger"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dbq-qQ-CPZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1006" y="-1377"/>
+        </scene>
+        <!--Björklunden-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" zoomEnabled="NO" scrollEnabled="NO" rotateEnabled="NO" pitchEnabled="NO" showsUserLocation="YES" id="Jq5-Iz-8MK">
+                                <rect key="frame" x="0.0" y="0.0" width="843" height="1119"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="IIM-Vb-eR9"/>
+                                </connections>
+                            </mapView>
+                            <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Overlay with Labels.png" id="ui7-IW-E7H">
+                                <rect key="frame" x="46" y="-19" width="850" height="1062"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.95000000000000007" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="new menu bar.png" highlighted="YES" id="oj5-Cl-Ktg">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" alpha="0.74999999999999978" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="toJ-I2-gPS">
+                                <rect key="frame" x="581" y="881" width="187" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="About" backgroundImage="button.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" backgroundImage="buttonPressed.png"/>
+                                <connections>
+                                    <segue destination="fE2-aP-LYX" kind="push" id="zzx-Ky-lKY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.74999999999999978" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="plh-fM-sIn">
+                                <rect key="frame" x="581" y="949" width="187" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Map with Labels" backgroundImage="button.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" backgroundImage="buttonPressed.png"/>
+                            </button>
+                        </subviews>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Björklunden" id="C6A-BL-XGh">
+                        <barButtonItem key="leftBarButtonItem" title="List of Features" id="QC6-vK-ERb">
+                            <connections>
+                                <action selector="showListButtonTapped:" destination="BYZ-38-t0r" id="F4d-03-JhH"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="How to use" id="Od9-zm-XFy">
+                            <connections>
+                                <segue destination="HIc-od-XIc" kind="push" id="hiB-ro-MJ0"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="768" height="1024"/>
+                    <connections>
+                        <outlet property="mapView" destination="Jq5-Iz-8MK" id="nX3-ad-eaC"/>
+                        <outlet property="overWithLabels" destination="ui7-IW-E7H" id="IUP-dc-OEf"/>
+                        <outlet property="withLabels" destination="plh-fM-sIn" id="k3l-KT-hRu"/>
+                        <segue destination="b1V-NB-U1N" kind="push" identifier="Nurse Stump" id="Mfr-eP-8Jx"/>
+                        <segue destination="YS3-w2-Upb" kind="push" identifier="Canopy Gap" id="UGn-fr-NkY"/>
+                        <segue destination="HBk-DO-xls" kind="push" identifier="Cedars and Rocks" id="Mjj-kJ-pdZ"/>
+                        <segue destination="SCZ-uV-z31" kind="push" identifier="A Broken Ground" id="FeW-9q-90S"/>
+                        <segue destination="rov-Pr-DcO" kind="push" identifier="Björklunden's Shoreline" id="wPQ-Iz-eyj"/>
+                        <segue destination="fUI-JU-jSN" kind="push" identifier="Ancient Shoreline" id="9lh-yE-Ss3"/>
+                        <segue destination="h5z-H0-otf" kind="push" identifier="Parasitic Plants" id="Pm1-0a-iPD"/>
+                        <segue destination="wiD-KG-h6O" kind="push" identifier="A Tree's Blister" id="wkJ-o0-dNX"/>
+                        <segue destination="FGT-xP-XSt" kind="push" identifier="Björk's Windmill" id="ecm-V2-EK0"/>
+                        <segue destination="H8h-yY-DDt" kind="push" identifier="Juniper Shrubland" id="QHp-Ex-MqL"/>
+                        <segue destination="TeU-FN-UGL" kind="push" identifier="Switch in Forest" id="B5d-wc-quj"/>
+                        <segue destination="Xrx-SB-cdB" kind="push" identifier="Quarry" id="d9H-lC-RH2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1006" y="-131"/>
+        </scene>
+        <!--Cracks View Controller-->
+        <scene sceneID="sOC-hU-mNc">
+            <objects>
+                <viewController id="SCZ-uV-z31" customClass="CracksViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="U88-7F-5bi">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cracks in rock.png" id="9EC-fn-IRS">
+                                <rect key="frame" x="-54" y="0.0" width="1425" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A Broken Ground" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cLg-kn-98u">
+                                <rect key="frame" x="40.5" y="919" width="487" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Zqp-HD-ax2">
+                                <rect key="frame" x="2000" y="785" width="768" height="240"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="0.35000000000000003" colorSpace="calibratedWhite"/>
+                                <string key="text">          Door County’s shallow soil barely conceals the peninsula's ancient and impressive dolostone bedrock. After 415 million years, the foundation of Door County is slowly dismantling. Throughout Björklunden and Door County, crevices of all sizes are commonly found. These fissures are caused by freeze thaw cycles and geologic stress. The disintegration of the ancient stone can actually give life a new foothold. These cracks in the bedrock slowly fill with leaf litter, soil, and water transforming the barren, rocky gap into a botanical oasis. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="pd9-Vx-hRo"/>
+                    <connections>
+                        <outlet property="image" destination="9EC-fn-IRS" id="WBs-Ch-oV1"/>
+                        <outlet property="label" destination="cLg-kn-98u" id="y8l-xU-PV9"/>
+                        <outlet property="textBlock" destination="Zqp-HD-ax2" id="gpm-4M-AbV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m8X-Bb-Yzo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="20" y="-131"/>
+        </scene>
+        <!--Junipers View Controller-->
+        <scene sceneID="OQV-nq-Jld">
+            <objects>
+                <viewController id="H8h-yY-DDt" customClass="JunipersViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="I55-m6-1dl">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Juniper.png" id="cd4-x0-LNF">
+                                <rect key="frame" x="-40" y="0.0" width="1485" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Juniper Shrubland" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Abe-zF-cYE">
+                                <rect key="frame" x="116" y="148" width="404" height="158"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="24" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bH1-CZ-hsN">
+                                <rect key="frame" x="2000" y="772" width="768" height="252"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <string key="text">Suddenly becoming course and prickly, the vegetation changes rapidly as one enters Björklunden’s western scrubland. This area has very shallow soil that dries quickly, fostering a completely different ecosystem. Here, the most common plants are juniper (the prickly shrub) and crawling juniper (the prickly ground cover) whose needles retain water much more effectively than the broadleaf trees and shrubs found in other areas of the property. Throughout the summer, one can find small green berries covering the stems of the juniper shrub. Try crushing it up or giving it a very gentle chew. Those over the age of 21 may very well recognize a beverage made from this plant.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <size key="shadowOffset" width="1" height="1"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="OLx-Ma-NcZ"/>
+                    <connections>
+                        <outlet property="image" destination="cd4-x0-LNF" id="Oen-8R-rZl"/>
+                        <outlet property="label" destination="Abe-zF-cYE" id="cft-OQ-Ytv"/>
+                        <outlet property="textBlock" destination="bH1-CZ-hsN" id="c0V-dI-sS2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ek5-gt-kcf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="957" y="506"/>
+        </scene>
+        <!--Shore View Controller-->
+        <scene sceneID="1iC-LV-Xuo">
+            <objects>
+                <viewController id="rov-Pr-DcO" customClass="ShoreViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleAspectFill" id="o9R-pY-0Sl">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="new rocks at Lake edge.png" id="iTg-Lu-rOe">
+                                <rect key="frame" x="0.0" y="0.0" width="1208" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Björklunden's Shoreline" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="phl-47-EAQ">
+                                <rect key="frame" x="235" y="20" width="490" height="162"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aVR-nq-YNq">
+                                <rect key="frame" x="2500" y="791" width="768" height="234"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="0.5" colorSpace="calibratedWhite"/>
+                                <rect key="contentStretch" x="0.59999999999999998" y="0.0" width="0.5499999999999996" height="1"/>
+                                <string key="text">            Large slabs of gray stone frame the Björklunden’s Lake Michigan shoreline. Protruding yet formidable, these rocks not only support the shoreline but also constitute the thinly veiled bedrock of the Door County Peninsula. This magnesium rich carbonate rock is known as dolostone and was formed in the Silurian Period (413-425 million years ago). Varying strength throughout the stone causes erosion to occur unevenly over millennia. The slow break down of dolostone results in the diverse rock overhangs and shelves that define the lakefront. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <string key="userLabel">Label - Large slabs of gray stone frame the Björklunden’s Lake Michigan shoreline. Protruding yet formidable, these rocks not only support the shoreline but also constitute the thinly veiled bedrock of the Door County Peninsula. This magnesium rich carbonate rock is known as dolostone and was formed in the Silurian Period (413-425 million years ago). Varying strength throughout the stone causes erosion to occur unevenly over millennia. The slow break down of dolostone results in the diverse rock overhangs and shelves that define the lakefront.</string>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="rx2-TD-v8b"/>
+                    <connections>
+                        <outlet property="image" destination="iTg-Lu-rOe" id="82N-RT-CJw"/>
+                        <outlet property="label" destination="phl-47-EAQ" id="0pC-tn-yjk"/>
+                        <outlet property="textBlock" destination="aVR-nq-YNq" id="VyO-Yj-Lv0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fGW-aX-Pg1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="33" y="1026"/>
+        </scene>
+        <!--Cliffs View Controller-->
+        <scene sceneID="NAl-l9-Pio">
+            <objects>
+                <viewController id="fUI-JU-jSN" customClass="CliffsViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="K7q-mS-5ml">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ancient Shoreline.jpg" id="OtF-Ec-3pU">
+                                <rect key="frame" x="0.0" y="-144" width="1764" height="1251"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="An Ancient Shoreline" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6wM-al-lsM">
+                                <rect key="frame" x="0.0" y="508" width="372" height="162"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="pAo-ty-AQS">
+                                <rect key="frame" x="2000" y="752" width="768" height="272"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.11720742984693877" green="0.11720742984693877" blue="0.11720742984693877" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <string key="text">Found in the center of Björklunden, some 50 meters from the shoreline, small staggered cliffs dominate the landscape. Grey boulders peel off the rock wall and are quickly over-taken by lush green vegetation. Stone awnings create sunless regions without vegetation to obscure the county’s exposed bedrock. These cliffs were once the shoreline of an ancient sea dating back to the Devonian Period, about 400 million years ago, that covered much of the Eastern portion of the continent. The dolostone bedrock was slowly broken down in much the same way as can be observed along Björklunden’s current shoreline of Lake Michigan.​</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.98577493670000005" green="1" blue="0.97579469249999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="VS3-5e-hcU"/>
+                    <connections>
+                        <outlet property="image" destination="OtF-Ec-3pU" id="Wcc-OT-a9U"/>
+                        <outlet property="label" destination="6wM-al-lsM" id="nmh-WC-yAu"/>
+                        <outlet property="textBlock" destination="pAo-ty-AQS" id="FoA-QQ-wAb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bba-pV-OHj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1922" y="-94"/>
+        </scene>
+        <!--Quarry View Controller-->
+        <scene sceneID="dxG-6p-lA1">
+            <objects>
+                <viewController id="Xrx-SB-cdB" customClass="quarryViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2W1-sO-T1r">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="quarry.png" id="hZ2-E1-zoE">
+                                <rect key="frame" x="0.0" y="0.0" width="942" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Quarry" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Brt-nt-Vy0">
+                                <rect key="frame" x="20" y="926" width="272" height="78"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Clm-qa-AWB">
+                                <rect key="frame" x="2000" y="595" width="419" height="409"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">The old quarry is not much but an exposed sheet of bedrock.  Some of the stone harvested from this area was used to build small parts of the lodge, such as various old patios and walkways.  Now this area has been abandoned for so long that nature is beginning to reclaim it.  Each year, the line of soil gains a few centimeters over the rock, and lichen and other pioneering organisms break down the unwelcoming ground into a more nutritious layer for future plants.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="UwJ-JI-w7a"/>
+                    <connections>
+                        <outlet property="image" destination="hZ2-E1-zoE" id="k4U-3k-31z"/>
+                        <outlet property="label" destination="Brt-nt-Vy0" id="i9W-j1-7tw"/>
+                        <outlet property="textBlock" destination="Clm-qa-AWB" id="Z9T-pO-kcG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XP7-U7-0jf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1930" y="-1377"/>
+        </scene>
+        <!--canopyGap-->
+        <scene sceneID="WFt-Mz-Elb">
+            <objects>
+                <viewController title="canopyGap" id="YS3-w2-Upb" customClass="canopyGapViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7tT-dQ-hiR">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Gap Photo.png" id="mAQ-x1-Nvg">
+                                <rect key="frame" x="-465" y="-24" width="1964" height="1191"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="qZU-gd-wOE" appends="YES" id="4UG-EX-tce"/>
+                                    <outletCollection property="gestureRecognizers" destination="EXF-rb-FDU" appends="YES" id="tIb-b4-J3F"/>
+                                </connections>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="NwO-UA-s6J">
+                                <rect key="frame" x="0.0" y="543" width="3728" height="383"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">     In dense forests, much of the sun’s light is blocked by the countless leaves that make up its canopy meaning the forest floor is often too shaded for seedlings to grow. However, disruptions such as trees dying or branches breaking form gaps in this canopy. These openings allow sunlight to reach the forest floor, creating an opportunity for a new community of understory plants to develop. In these communities, we find such species as Gaywings, Canada mayflowers, Thimbleberries, Starflowers, Herb Roberts, and Dwarf Enchanter’s Nightshade. In addition to these understory plants, canopy gaps allow tree saplings to grow which, in time, fill in the gap and continue the cycle of the canopy.</string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <size key="shadowOffset" width="2" height="0.0"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Canopy Gap" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="F6f-Zx-pcg">
+                                <rect key="frame" x="52" y="148" width="466" height="139"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="80"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="P7z-0v-yLQ"/>
+                    <connections>
+                        <outlet property="image" destination="mAQ-x1-Nvg" id="Yem-Wm-d8M"/>
+                        <outlet property="label" destination="F6f-Zx-pcg" id="UEE-08-IKy"/>
+                        <outlet property="textBlock" destination="NwO-UA-s6J" id="vPS-Uv-bAp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qgH-B5-UKH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="4xM-Al-Omo"/>
+                <swipeGestureRecognizer direction="down" id="qZU-gd-wOE"/>
+                <swipeGestureRecognizer direction="up" id="EXF-rb-FDU"/>
+            </objects>
+            <point key="canvasLocation" x="33" y="-2646"/>
+        </scene>
+        <!--Cedars On Rocks View Controller-->
+        <scene sceneID="lr2-LO-t60">
+            <objects>
+                <viewController id="HBk-DO-xls" customClass="cedarsOnRocksViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ElL-HX-i8b">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cedarOnRocks.png" id="n04-EU-JEk">
+                                <rect key="frame" x="0.0" y="-58" width="1202" height="1438"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cedars on Rocks" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="seU-qp-BfB">
+                                <rect key="frame" x="154" y="727" width="525" height="135"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="26" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0aw-k0-onw">
+                                <rect key="frame" x="2036" y="491" width="333" height="533"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.3720703125" green="0.3720703125" blue="0.3720703125" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <string key="text">      Red cedars, which can be identified by their small scaly fronds and narrow strips of bark, can grow on the dry and rocky terrain that most trees cannot.  In this area, cedars perch on and cling to the large boulders that were formed by the ancient lake Nipissing. The cedars use their strong roots to grasp the rocks and keep from falling.  As the trees get taller, they require more roots and more rock space to grasp, lest they loose their balance and topple.  The roots of the cedars not only help the cedars themselves, but make the boulders a more livable habitat for various small plants, fungi, insects, and animal life.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="A6N-bi-iN3"/>
+                    <connections>
+                        <outlet property="image" destination="n04-EU-JEk" id="r7X-fH-5L3"/>
+                        <outlet property="label" destination="seU-qp-BfB" id="V2t-0C-Ysx"/>
+                        <outlet property="textBlock" destination="0aw-k0-onw" id="ltu-hp-cga"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hMU-Gg-kP0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="33" y="-1401"/>
+        </scene>
+        <!--Wind Mill View Controller-->
+        <scene sceneID="w1U-JA-35y">
+            <objects>
+                <viewController id="FGT-xP-XSt" customClass="windMillViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HIc-Fa-QIQ">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="windmill.png" id="KZc-Ls-4PZ">
+                                <rect key="frame" x="0.0" y="0.0" width="870" height="1650"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Björklunden Windmill" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lfo-Gn-eiW">
+                                <rect key="frame" x="389" y="67" width="342" height="124"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.5215686559677124" green="0.5215686559677124" blue="0.5215686559677124" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ssg-yS-Jzc">
+                                <rect key="frame" x="2066" y="25" width="502" height="542"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">In a remarkable commitment to environmental sustainability, Lawrence University and Björklunden raised $370,000 in 2010 and 2011 to build a 120 foot, 50 kilowatt wind turbine that raises over the tallest trees and converts the wind off of Lake Michigan. Beginning as an independent research project by 2010 graduate Steve Schnorr, this project found strong support in the young Environmental Studies department and with environmentally-minded donors. Among the other creations of Lawrence’s Environmental Studies department are the guidelines for the creation of the Warch Campus Center that received the LEED “Gold” certification, a productive on-campus farm, and a system of solar panels on a number of campus buildings. This windmill is a beautiful example of a student initiated project that Lawrence University’s staff supported and, with the help of our intrepid donors, made into a reality.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.52941179275512695" green="0.52941179275512695" blue="0.52941179275512695" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="1" height="1"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="cO0-pH-hrt"/>
+                    <connections>
+                        <outlet property="image" destination="KZc-Ls-4PZ" id="aE9-WD-Fin"/>
+                        <outlet property="label" destination="lfo-Gn-eiW" id="Qik-EC-qXH"/>
+                        <outlet property="textBlock" destination="ssg-yS-Jzc" id="cDB-Qb-m7d"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8W8-SY-VId" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="957" y="-841"/>
+        </scene>
+        <!--Burl View Controller-->
+        <scene sceneID="Su5-7b-ZfA">
+            <objects>
+                <viewController id="wiD-KG-h6O" customClass="burlViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IFr-r7-8r3">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="burl.png" id="4ZW-HV-MIH">
+                                <rect key="frame" x="-326" y="-729" width="1094" height="1753"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A Tree's Blister" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3ib-xY-c4j">
+                                <rect key="frame" x="306" y="885" width="411" height="114"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="22" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dVG-Ji-Zdd">
+                                <rect key="frame" x="429" y="-1554" width="339" height="470"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.11720742984693877" green="0.11720742984693877" blue="0.11720742984693877" alpha="0.34000000000000002" colorSpace="calibratedRGB"/>
+                                <string key="text">Swollen and tumorous, a burl is the result of a tree’s wood wrapping around itself, folding over and over within the bark of the tree. This warped wood is the tree’s attempt to distance itself from an infected or damaged area by rapidly growing new wood. Though unsightly from the outside, burls cause the wood’s grain to twist, wrap, and envelop itself creating stunningly beautiful patterns that are prized in wood working. Luckily, Björklunden respects these trees and will only harvest a burl from a tree that has died naturally.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="unu-rl-iLa"/>
+                    <connections>
+                        <outlet property="image" destination="4ZW-HV-MIH" id="EOw-UR-Krb"/>
+                        <outlet property="label" destination="3ib-xY-c4j" id="iQr-NT-3x4"/>
+                        <outlet property="textBlock" destination="dVG-Ji-Zdd" id="iPZ-Al-Q43"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bdY-6g-Jg8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="957" y="-2061"/>
+        </scene>
+        <!--nurseStump-->
+        <scene sceneID="J46-iX-Cou">
+            <objects>
+                <viewController title="nurseStump" id="b1V-NB-U1N" customClass="nurseStumpViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleAspectFill" id="dMh-t0-QSB">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Nurse Stump copy.png" id="ctC-ya-L6t">
+                                <rect key="frame" x="-457" y="0.0" width="1922" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="RS6-d4-kak" appends="YES" id="i1d-rP-VU6"/>
+                                    <outletCollection property="gestureRecognizers" destination="crr-73-ElM" appends="YES" id="OXX-tJ-0Te"/>
+                                    <outletCollection property="gestureRecognizers" destination="3Fn-qx-xtR" appends="YES" id="5mD-YN-S3N"/>
+                                </connections>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nurse Stump" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="B9f-OS-J8s">
+                                <rect key="frame" x="60" y="123" width="464" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="77"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="NGh-cx-gMq">
+                                <rect key="frame" x="0.0" y="3573" width="728" height="383"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">    The remains of past trees litter the forest floor. Though these trees died some time ago, they have more life to give. Their remains hold nutrients and moisture while often being conveniently located under a canopy gap. This combination creates a habitat perfectly suited to raise seedlings. Lichens, mosses, fungi, and animals also find sanctuary here, creating a small ecosystem within the log. As it turns out, there is a lot of life to be gained from a dead tree!</string>
+                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="24"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="2" height="0.0"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="sPn-zD-iYH"/>
+                    <value key="contentSizeForViewInPopover" type="size" width="768" height="1024"/>
+                    <connections>
+                        <outlet property="image" destination="ctC-ya-L6t" id="CC5-Fo-Nlk"/>
+                        <outlet property="label" destination="B9f-OS-J8s" id="uou-FM-B2n"/>
+                        <outlet property="textBlock" destination="NGh-cx-gMq" id="K64-7z-bFw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="E0N-9h-lxP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="RS6-d4-kak"/>
+                <swipeGestureRecognizer direction="up" id="crr-73-ElM"/>
+                <swipeGestureRecognizer direction="down" id="3Fn-qx-xtR"/>
+            </objects>
+            <point key="canvasLocation" x="33" y="-3807"/>
+        </scene>
+        <!--Parasitic Plant View Controller-->
+        <scene sceneID="ywr-pH-ClD">
+            <objects>
+                <viewController id="h5z-H0-otf" customClass="parasiticPlantViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WOm-LZ-GT8">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Coral Beech Root new copy.png" id="xsY-jk-SWj">
+                                <rect key="frame" x="-53" y="0.0" width="1226" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Parasitic Plants" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="QmU-rV-Ia4">
+                                <rect key="frame" x="14" y="248" width="328" height="244"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="22" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8yd-2M-onc">
+                                <rect key="frame" x="2028" y="556" width="540" height="466"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <string key="text">Björklunden is home to several very unique parasites. But don’t worry, these parasites won’t hurt you. Beechdrops and Striped Coral Roots (pictured) leech sugar, water, and nutrients from their neighbors without giving anything back. Beechdrops attach themselves to the roots of Beech trees while Striped Coral Root obtain nutrients from the ever-present network of underground fungi. Both these plants survive without chlorophyll (which produces sugar in most plant cells) which makes them some of the few plants without any green coloring. The brown Beechdrops are often mistaken for dead twigs on the forest floor while Striped Coral Roots are fairly noticeable in the Spring and early Summer, with bright magenta stems and beautiful pink orchid flowers, proving that sometimes parasites can be surprisingly beautiful.​</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="highlightedColor" red="1" green="1" blue="1" alpha="0.42999999999999999" colorSpace="calibratedRGB"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="SaV-9M-Hng"/>
+                    <connections>
+                        <outlet property="image" destination="xsY-jk-SWj" id="sgB-Ne-PdF"/>
+                        <outlet property="label" destination="QmU-rV-Ia4" id="2yg-A3-izb"/>
+                        <outlet property="textBlock" destination="8yd-2M-onc" id="zcB-hS-fFT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mVn-7G-wHK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="957" y="-3254"/>
+        </scene>
+        <!--Switch In Forest View Controller-->
+        <scene sceneID="jCC-tw-7N1">
+            <objects>
+                <viewController id="TeU-FN-UGL" customClass="switchInForestViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ucj-XA-KvM">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="newSwitchInForest.png" id="ZJV-dS-maE">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1301"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A Switch in Forests" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="SfV-Af-yfo">
+                                <rect key="frame" x="20" y="905" width="417" height="99"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9EV-IJ-bdO">
+                                <rect key="frame" x="2034" y="510" width="728" height="323"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">At this point on the trail, a noticeable change in the inhabitants of the forest has occurred.  Different trees, shrubs and ground cover are appearing, making the scene change quite drastically all of the sudden.  Switches such as these in forests are caused by many factors, temporal and spatial.  To determine some of the influence on the change taking place here, ecologists might take note that the slope of the ground has changed, as well as the distance to the water.  Both of these factors as well as many more subtle ones (depth of soil, distance from cold lake gusts, soil acidity, etc.) can affect the line at which some plants thrive and others don't.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="reN-5X-MEx"/>
+                    <connections>
+                        <outlet property="image" destination="ZJV-dS-maE" id="tyK-1S-meD"/>
+                        <outlet property="label" destination="SfV-Af-yfo" id="5ss-40-wLv"/>
+                        <outlet property="textBlock" destination="9EV-IJ-bdO" id="MAb-6L-A4F"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sET-GO-7Pg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1922" y="-2700"/>
+        </scene>
+        <!--Howto Windmill View Controller-->
+        <scene sceneID="mkw-9m-rUg">
+            <objects>
+                <viewController id="1xe-Tb-Ixt" customClass="HowtoWindmillViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bJi-2W-xWh">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="windmill.png" id="ovK-Kg-MWH">
+                                <rect key="frame" x="0.0" y="0.0" width="870" height="1650"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Björklunden Windmill" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="CCF-Yy-o6a">
+                                <rect key="frame" x="389" y="67" width="342" height="124"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zNa-ia-l7w">
+                                <rect key="frame" x="306" y="73" width="462" height="444"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">In a remarkable commitment to environmental sustainability, Lawrence University and Björklunden raised $370,000 in 2010 and 2011 to build a 120 foot, 50 kilowatt wind turbine that raises over the tallest trees and converts the wind off of Lake Michigan. Beginning as an independent research project by 2010 graduate Steve Schnorr, this project found strong support in the young Environmental Studies department and with environmentally-minded donors. Among the other creations of Lawrence’s Environmental Studies department are the guidelines for the creation of the Warch Campus Center that received the LEED “Gold” certification, a productive on-campus farm, and a system of solar panels on a number of campus buildings. This windmill is a beautiful example of a student initiated project that Lawrence University’s staff supported and, with the help of our intrepid donors, made into a reality.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <size key="shadowOffset" width="1" height="1"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TAP ANYWHERE                        TO VIEW MORE" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="PLt-6r-2Ca">
+                                <rect key="frame" x="494" y="889" width="254" height="115"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="33"/>
+                                <color key="textColor" red="0.13706291440312177" green="0.25536928823885729" blue="0.4870256696428571" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SWIPE TO ALTERNATE VIEWS" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Z0i-33-fIY">
+                                <rect key="frame" x="290" y="936" width="478" height="127"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="35"/>
+                                <color key="textColor" red="0.25040556571062833" green="0.30686829093180384" blue="0.46207350127551017" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="160" verticalCompressionResistancePriority="160" placeholderIntrinsicWidth="159" placeholderIntrinsicHeight="160" image="Top Above.png" id="hIe-rn-Im2">
+                                <rect key="frame" x="26" y="73" width="180" height="181"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="GlG-Ql-Rcq"/>
+                    <connections>
+                        <outlet property="Howto1" destination="PLt-6r-2Ca" id="LgS-br-Q7y"/>
+                        <outlet property="Howto2" destination="Z0i-33-fIY" id="pjO-iQ-u9h"/>
+                        <outlet property="Howto3" destination="hIe-rn-Im2" id="yTE-el-END"/>
+                        <outlet property="image" destination="ovK-Kg-MWH" id="P5R-iu-tho"/>
+                        <outlet property="label" destination="CCF-Yy-o6a" id="vHT-3f-7Pa"/>
+                        <outlet property="textBlock" destination="zNa-ia-l7w" id="QuH-b9-ktg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m1h-h9-4za" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2075" y="-2633"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="About Page.png" width="2304" height="1024"/>
+        <image name="Ancient Shoreline.jpg" width="3872" height="2592"/>
+        <image name="Coral Beech Root new copy.png" width="3456" height="2592"/>
+        <image name="Gap Photo.png" width="3872" height="2592"/>
+        <image name="IMG_0008.PNG" width="768" height="1024"/>
+        <image name="Juniper.png" width="3872" height="2592"/>
+        <image name="Nurse Stump copy.png" width="3872" height="2592"/>
+        <image name="Overlay with Labels.png" width="3880" height="4333"/>
+        <image name="Simply Tap a Pin.png" width="500" height="500"/>
+        <image name="Top Above.png" width="500" height="500"/>
+        <image name="burl.png" width="2592" height="3872"/>
+        <image name="button.png" width="400" height="400"/>
+        <image name="buttonPressed.png" width="400" height="400"/>
+        <image name="cedarOnRocks.png" width="3872" height="2592"/>
+        <image name="cracks in rock.png" width="3872" height="2592"/>
+        <image name="new menu bar.png" width="2000" height="500"/>
+        <image name="new rocks at Lake edge.png" width="3872" height="2592"/>
+        <image name="newSwitchInForest.png" width="3872" height="2592"/>
+        <image name="quarry.png" width="3872" height="2592"/>
+        <image name="windmill.png" width="2592" height="3872"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

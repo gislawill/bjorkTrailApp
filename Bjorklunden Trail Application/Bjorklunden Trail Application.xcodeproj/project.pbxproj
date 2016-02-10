@@ -1,0 +1,919 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		150231BD19800E2E001D5746 /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 150231BC19800E2E001D5746 /* blue.png */; };
+		150231C519801A68001D5746 /* Launch Image.png in Resources */ = {isa = PBXBuildFile; fileRef = 150231C419801A68001D5746 /* Launch Image.png */; };
+		150231CA19803A5D001D5746 /* Forget-Me-Not copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 150231C919803A5C001D5746 /* Forget-Me-Not copy.png */; };
+		150CA070197EE278008DED01 /* nurseStumpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 150CA06F197EE278008DED01 /* nurseStumpViewController.m */; };
+		150CA073197EE534008DED01 /* canopyGapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 150CA072197EE534008DED01 /* canopyGapViewController.m */; };
+		150CFB0C199D387C0048879A /* Overlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 150CFB0B199D387C0048879A /* Overlay.png */; };
+		150CFB0E199D3ACE0048879A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 150CFB0D199D3ACD0048879A /* Images.xcassets */; };
+		150CFB10199D3F470048879A /* Ancient Shoreline.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 150CFB0F199D3F470048879A /* Ancient Shoreline.jpg */; };
+		150CFB14199D44CF0048879A /* rocks at Lake edge.png in Resources */ = {isa = PBXBuildFile; fileRef = 150CFB13199D44CF0048879A /* rocks at Lake edge.png */; };
+		150CFB16199D44EB0048879A /* cracks in rock.png in Resources */ = {isa = PBXBuildFile; fileRef = 150CFB15199D44EB0048879A /* cracks in rock.png */; };
+		150CFB18199D450B0048879A /* cedarOnRocks.png in Resources */ = {isa = PBXBuildFile; fileRef = 150CFB17199D450B0048879A /* cedarOnRocks.png */; };
+		150CFB1A199D451C0048879A /* Gap Photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 150CFB19199D451C0048879A /* Gap Photo.png */; };
+		150CFB1C199D45390048879A /* Nurse Stump copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 150CFB1B199D45390048879A /* Nurse Stump copy.png */; };
+		150CFB1F19A257070048879A /* parasiticPlantViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 150CFB1E19A257070048879A /* parasiticPlantViewController.m */; };
+		151925BF197D8A5E007AE26C /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = 151925BE197D8A5E007AE26C /* green.png */; };
+		15379E97198180BA006A1A28 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15379E96198180BA006A1A28 /* AboutViewController.m */; };
+		15379E9D1981A873006A1A28 /* cedarsOnRocksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15379E9C1981A873006A1A28 /* cedarsOnRocksViewController.m */; };
+		1544513419A3D41B00066AD8 /* Juniper.png in Resources */ = {isa = PBXBuildFile; fileRef = 1544513319A3D41B00066AD8 /* Juniper.png */; };
+		154749B51979ACCB00781CCB /* OverlayObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 154749B41979ACCB00781CCB /* OverlayObject.m */; };
+		154749B81979AD3D00781CCB /* OverlayRender.m in Sources */ = {isa = PBXBuildFile; fileRef = 154749B71979AD3D00781CCB /* OverlayRender.m */; };
+		154F99C11982023C0009EE3F /* annotationMarkerDraft2.png in Resources */ = {isa = PBXBuildFile; fileRef = 154F999E1982023C0009EE3F /* annotationMarkerDraft2.png */; };
+		154F99CB1982023C0009EE3F /* cedarBark.png in Resources */ = {isa = PBXBuildFile; fileRef = 154F99A81982023C0009EE3F /* cedarBark.png */; };
+		154F99E31982026B0009EE3F /* cedarOnRocks.png in Resources */ = {isa = PBXBuildFile; fileRef = 154F99E21982026B0009EE3F /* cedarOnRocks.png */; };
+		155A2F7E19770A29005753F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 155A2F7D19770A29005753F9 /* Foundation.framework */; };
+		155A2F8019770A29005753F9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 155A2F7F19770A29005753F9 /* CoreGraphics.framework */; };
+		155A2F8219770A29005753F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 155A2F8119770A29005753F9 /* UIKit.framework */; };
+		155A2F8819770A29005753F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 155A2F8619770A29005753F9 /* InfoPlist.strings */; };
+		155A2F8A19770A29005753F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 155A2F8919770A29005753F9 /* main.m */; };
+		155A2F8E19770A29005753F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 155A2F8D19770A29005753F9 /* AppDelegate.m */; };
+		155A2F9119770A29005753F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 155A2F8F19770A29005753F9 /* Main.storyboard */; };
+		155A2F9419770A29005753F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 155A2F9319770A29005753F9 /* ViewController.m */; };
+		155A2F9D19770A29005753F9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 155A2F9C19770A29005753F9 /* XCTest.framework */; };
+		155A2F9E19770A29005753F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 155A2F7D19770A29005753F9 /* Foundation.framework */; };
+		155A2F9F19770A29005753F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 155A2F8119770A29005753F9 /* UIKit.framework */; };
+		155A2FA719770A29005753F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 155A2FA519770A29005753F9 /* InfoPlist.strings */; };
+		155A2FA919770A29005753F9 /* Bjorklunden_Trail_ApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 155A2FA819770A29005753F9 /* Bjorklunden_Trail_ApplicationTests.m */; };
+		155A2FB319770A43005753F9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 155A2FB219770A43005753F9 /* CoreLocation.framework */; };
+		155A2FB519770A4A005753F9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 155A2FB419770A4A005753F9 /* MapKit.framework */; };
+		155A2FB819770BD1005753F9 /* Annotations.m in Sources */ = {isa = PBXBuildFile; fileRef = 155A2FB719770BD1005753F9 /* Annotations.m */; };
+		156A4F0619A4EC2C00CBF74F /* howToUseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156A4F0519A4EC2C00CBF74F /* howToUseViewController.m */; };
+		156A4F1319A4FDAE00CBF74F /* annotationMarkerDraft3.png in Resources */ = {isa = PBXBuildFile; fileRef = 156A4F1219A4FDAE00CBF74F /* annotationMarkerDraft3.png */; };
+		156A4F1519A4FEA800CBF74F /* new menu bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 156A4F1419A4FEA800CBF74F /* new menu bar.png */; };
+		156A4F1719A5027C00CBF74F /* OverlayBest.png in Resources */ = {isa = PBXBuildFile; fileRef = 156A4F1619A5027C00CBF74F /* OverlayBest.png */; };
+		156A4F1B19A5099300CBF74F /* IMG_0008.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 156A4F1A19A5099300CBF74F /* IMG_0008.PNG */; };
+		156A4F1F19A527C900CBF74F /* Simply Tap a Pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 156A4F1E19A527C900CBF74F /* Simply Tap a Pin.png */; };
+		156A4F2219A5299E00CBF74F /* HowtoWindmillViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156A4F2119A5299E00CBF74F /* HowtoWindmillViewController.m */; };
+		156A4F2419A53C1100CBF74F /* Top Above.png in Resources */ = {isa = PBXBuildFile; fileRef = 156A4F2319A53C1100CBF74F /* Top Above.png */; };
+		156A4F2619A677D300CBF74F /* About Page.png in Resources */ = {isa = PBXBuildFile; fileRef = 156A4F2519A677D300CBF74F /* About Page.png */; };
+		1579D2B719A2E520004BF522 /* burlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1579D2B619A2E520004BF522 /* burlViewController.m */; };
+		1579D2BB19A2E55F004BF522 /* windMillViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1579D2BA19A2E55F004BF522 /* windMillViewController.m */; };
+		1579D2BF19A2E57F004BF522 /* JunipersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1579D2BE19A2E57F004BF522 /* JunipersViewController.m */; };
+		15A12E9B1978430200E61B23 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15A12E9A1978430200E61B23 /* QuartzCore.framework */; };
+		15BD76DB1994331500868688 /* CracksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BD76DA1994331500868688 /* CracksViewController.m */; };
+		15BD76DE1994332800868688 /* CliffsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BD76DD1994332800868688 /* CliffsViewController.m */; };
+		15BD76E11994333700868688 /* ShoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BD76E01994333700868688 /* ShoreViewController.m */; };
+		15C2332519C325B900BAE7E6 /* Overlay with Labels.png in Resources */ = {isa = PBXBuildFile; fileRef = 15C2332419C325B900BAE7E6 /* Overlay with Labels.png */; };
+		15C9293B19A3969E00F61028 /* burl.png in Resources */ = {isa = PBXBuildFile; fileRef = 15C9293A19A3969E00F61028 /* burl.png */; };
+		15C9294119A3ABE200F61028 /* windmill.png in Resources */ = {isa = PBXBuildFile; fileRef = 15C9294019A3ABE200F61028 /* windmill.png */; };
+		15CB6587197DCC26002FE3AF /* Aleo-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 15CB6581197DCC26002FE3AF /* Aleo-Bold.otf */; };
+		15CB6588197DCC26002FE3AF /* Aleo-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 15CB6582197DCC26002FE3AF /* Aleo-BoldItalic.otf */; };
+		15CB6589197DCC26002FE3AF /* Aleo-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 15CB6583197DCC26002FE3AF /* Aleo-Italic.otf */; };
+		15CB658A197DCC26002FE3AF /* Aleo-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 15CB6584197DCC26002FE3AF /* Aleo-Light.otf */; };
+		15CB658B197DCC26002FE3AF /* Aleo-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 15CB6585197DCC26002FE3AF /* Aleo-LightItalic.otf */; };
+		15CB658C197DCC26002FE3AF /* Aleo-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 15CB6586197DCC26002FE3AF /* Aleo-Regular.otf */; };
+		15D4E56519A2787500CBC85F /* Coral Beech Root new copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 15D4E56419A2787500CBC85F /* Coral Beech Root new copy.png */; };
+		15DB420319C0F9D000DD8B05 /* switchInForestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DB420219C0F9D000DD8B05 /* switchInForestViewController.m */; };
+		15DB420519C0FE9C00DD8B05 /* newSwitchInForest.png in Resources */ = {isa = PBXBuildFile; fileRef = 15DB420419C0FE9C00DD8B05 /* newSwitchInForest.png */; };
+		15DB420719C10A7E00DD8B05 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 15DB420619C10A7E00DD8B05 /* button.png */; };
+		15DB420919C10A9C00DD8B05 /* buttonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 15DB420819C10A9C00DD8B05 /* buttonPressed.png */; };
+		15DB420B19C1FB0000DD8B05 /* new rocks at Lake edge.png in Resources */ = {isa = PBXBuildFile; fileRef = 15DB420A19C1FAFF00DD8B05 /* new rocks at Lake edge.png */; };
+		15DB420D19C27F4A00DD8B05 /* quarry.png in Resources */ = {isa = PBXBuildFile; fileRef = 15DB420C19C27F4A00DD8B05 /* quarry.png */; };
+		15DB421019C2801800DD8B05 /* quarryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15DB420F19C2801800DD8B05 /* quarryViewController.m */; };
+		15FC64F0198A91D400788822 /* TableForPopoverTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15FC64EF198A91D400788822 /* TableForPopoverTableViewController.m */; };
+		15FC64F2199273FA00788822 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15FC64F1199273FA00788822 /* CoreImage.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		155A2FA019770A29005753F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 155A2F7219770A29005753F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 155A2F7919770A29005753F9;
+			remoteInfo = "Bjorklunden Trail Application";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		150231BC19800E2E001D5746 /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blue.png; path = ../blue.png; sourceTree = "<group>"; };
+		150231C419801A68001D5746 /* Launch Image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Launch Image.png"; path = "../Launch Image.png"; sourceTree = "<group>"; };
+		150231C919803A5C001D5746 /* Forget-Me-Not copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Forget-Me-Not copy.png"; sourceTree = "<group>"; };
+		150CA06E197EE278008DED01 /* nurseStumpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nurseStumpViewController.h; sourceTree = "<group>"; };
+		150CA06F197EE278008DED01 /* nurseStumpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = nurseStumpViewController.m; sourceTree = "<group>"; };
+		150CA071197EE534008DED01 /* canopyGapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = canopyGapViewController.h; sourceTree = "<group>"; };
+		150CA072197EE534008DED01 /* canopyGapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = canopyGapViewController.m; sourceTree = "<group>"; };
+		150CFB0B199D387C0048879A /* Overlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Overlay.png; path = "../../../../App Project/New Images/Overlay.png"; sourceTree = "<group>"; };
+		150CFB0D199D3ACD0048879A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		150CFB0F199D3F470048879A /* Ancient Shoreline.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Ancient Shoreline.jpg"; path = "../../../../App Project/New Images/Ancient Shoreline.jpg"; sourceTree = "<group>"; };
+		150CFB13199D44CF0048879A /* rocks at Lake edge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rocks at Lake edge.png"; sourceTree = "<group>"; };
+		150CFB15199D44EB0048879A /* cracks in rock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cracks in rock.png"; sourceTree = "<group>"; };
+		150CFB17199D450B0048879A /* cedarOnRocks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cedarOnRocks.png; sourceTree = "<group>"; };
+		150CFB19199D451C0048879A /* Gap Photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gap Photo.png"; sourceTree = "<group>"; };
+		150CFB1B199D45390048879A /* Nurse Stump copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Nurse Stump copy.png"; sourceTree = "<group>"; };
+		150CFB1D19A257070048879A /* parasiticPlantViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parasiticPlantViewController.h; sourceTree = "<group>"; };
+		150CFB1E19A257070048879A /* parasiticPlantViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = parasiticPlantViewController.m; sourceTree = "<group>"; };
+		151925BE197D8A5E007AE26C /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = green.png; path = "../../../App Project/Images/green.png"; sourceTree = "<group>"; };
+		15379E95198180BA006A1A28 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		15379E96198180BA006A1A28 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		15379E9B1981A873006A1A28 /* cedarsOnRocksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cedarsOnRocksViewController.h; sourceTree = "<group>"; };
+		15379E9C1981A873006A1A28 /* cedarsOnRocksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cedarsOnRocksViewController.m; sourceTree = "<group>"; };
+		1544513319A3D41B00066AD8 /* Juniper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Juniper.png; sourceTree = "<group>"; };
+		154749B31979ACCB00781CCB /* OverlayObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayObject.h; sourceTree = "<group>"; };
+		154749B41979ACCB00781CCB /* OverlayObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayObject.m; sourceTree = "<group>"; };
+		154749B61979AD3D00781CCB /* OverlayRender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayRender.h; sourceTree = "<group>"; };
+		154749B71979AD3D00781CCB /* OverlayRender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayRender.m; sourceTree = "<group>"; };
+		154F999E1982023C0009EE3F /* annotationMarkerDraft2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = annotationMarkerDraft2.png; sourceTree = "<group>"; };
+		154F99A81982023C0009EE3F /* cedarBark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cedarBark.png; sourceTree = "<group>"; };
+		154F99E21982026B0009EE3F /* cedarOnRocks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cedarOnRocks.png; sourceTree = "<group>"; };
+		155A2F7A19770A29005753F9 /* Bjorklunden Trail Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bjorklunden Trail Application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		155A2F7D19770A29005753F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		155A2F7F19770A29005753F9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		155A2F8119770A29005753F9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		155A2F8519770A29005753F9 /* Bjorklunden Trail Application-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bjorklunden Trail Application-Info.plist"; sourceTree = "<group>"; };
+		155A2F8719770A29005753F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		155A2F8919770A29005753F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		155A2F8B19770A29005753F9 /* Bjorklunden Trail Application-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bjorklunden Trail Application-Prefix.pch"; sourceTree = "<group>"; };
+		155A2F8C19770A29005753F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		155A2F8D19770A29005753F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		155A2F9019770A29005753F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		155A2F9219770A29005753F9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		155A2F9319770A29005753F9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		155A2F9B19770A29005753F9 /* Bjorklunden Trail ApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bjorklunden Trail ApplicationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		155A2F9C19770A29005753F9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		155A2FA419770A29005753F9 /* Bjorklunden Trail ApplicationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bjorklunden Trail ApplicationTests-Info.plist"; sourceTree = "<group>"; };
+		155A2FA619770A29005753F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		155A2FA819770A29005753F9 /* Bjorklunden_Trail_ApplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bjorklunden_Trail_ApplicationTests.m; sourceTree = "<group>"; };
+		155A2FB219770A43005753F9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		155A2FB419770A4A005753F9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		155A2FB619770BD1005753F9 /* Annotations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Annotations.h; sourceTree = "<group>"; };
+		155A2FB719770BD1005753F9 /* Annotations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Annotations.m; sourceTree = "<group>"; };
+		156A4F0419A4EC2C00CBF74F /* howToUseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = howToUseViewController.h; sourceTree = "<group>"; };
+		156A4F0519A4EC2C00CBF74F /* howToUseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = howToUseViewController.m; sourceTree = "<group>"; };
+		156A4F1219A4FDAE00CBF74F /* annotationMarkerDraft3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = annotationMarkerDraft3.png; sourceTree = "<group>"; };
+		156A4F1419A4FEA800CBF74F /* new menu bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new menu bar.png"; sourceTree = "<group>"; };
+		156A4F1619A5027C00CBF74F /* OverlayBest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OverlayBest.png; sourceTree = "<group>"; };
+		156A4F1A19A5099300CBF74F /* IMG_0008.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0008.PNG; sourceTree = "<group>"; };
+		156A4F1E19A527C900CBF74F /* Simply Tap a Pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simply Tap a Pin.png"; sourceTree = "<group>"; };
+		156A4F2019A5299E00CBF74F /* HowtoWindmillViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HowtoWindmillViewController.h; sourceTree = "<group>"; };
+		156A4F2119A5299E00CBF74F /* HowtoWindmillViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HowtoWindmillViewController.m; sourceTree = "<group>"; };
+		156A4F2319A53C1100CBF74F /* Top Above.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Top Above.png"; sourceTree = "<group>"; };
+		156A4F2519A677D300CBF74F /* About Page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "About Page.png"; sourceTree = "<group>"; };
+		1579D2B519A2E520004BF522 /* burlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = burlViewController.h; sourceTree = "<group>"; };
+		1579D2B619A2E520004BF522 /* burlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = burlViewController.m; sourceTree = "<group>"; };
+		1579D2B919A2E55F004BF522 /* windMillViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = windMillViewController.h; sourceTree = "<group>"; };
+		1579D2BA19A2E55F004BF522 /* windMillViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = windMillViewController.m; sourceTree = "<group>"; };
+		1579D2BD19A2E57F004BF522 /* JunipersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JunipersViewController.h; sourceTree = "<group>"; };
+		1579D2BE19A2E57F004BF522 /* JunipersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JunipersViewController.m; sourceTree = "<group>"; };
+		15A12E9A1978430200E61B23 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		15BD76D91994331500868688 /* CracksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CracksViewController.h; sourceTree = "<group>"; };
+		15BD76DA1994331500868688 /* CracksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CracksViewController.m; sourceTree = "<group>"; };
+		15BD76DC1994332800868688 /* CliffsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CliffsViewController.h; sourceTree = "<group>"; };
+		15BD76DD1994332800868688 /* CliffsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CliffsViewController.m; sourceTree = "<group>"; };
+		15BD76DF1994333700868688 /* ShoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoreViewController.h; sourceTree = "<group>"; };
+		15BD76E01994333700868688 /* ShoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoreViewController.m; sourceTree = "<group>"; };
+		15C2332419C325B900BAE7E6 /* Overlay with Labels.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Overlay with Labels.png"; sourceTree = "<group>"; };
+		15C9293A19A3969E00F61028 /* burl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = burl.png; sourceTree = "<group>"; };
+		15C9294019A3ABE200F61028 /* windmill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = windmill.png; sourceTree = "<group>"; };
+		15CB6581197DCC26002FE3AF /* Aleo-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Aleo-Bold.otf"; path = "../Aleo-Bold.otf"; sourceTree = "<group>"; };
+		15CB6582197DCC26002FE3AF /* Aleo-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Aleo-BoldItalic.otf"; path = "../Aleo-BoldItalic.otf"; sourceTree = "<group>"; };
+		15CB6583197DCC26002FE3AF /* Aleo-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Aleo-Italic.otf"; path = "../Aleo-Italic.otf"; sourceTree = "<group>"; };
+		15CB6584197DCC26002FE3AF /* Aleo-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Aleo-Light.otf"; path = "../Aleo-Light.otf"; sourceTree = "<group>"; };
+		15CB6585197DCC26002FE3AF /* Aleo-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Aleo-LightItalic.otf"; path = "../Aleo-LightItalic.otf"; sourceTree = "<group>"; };
+		15CB6586197DCC26002FE3AF /* Aleo-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Aleo-Regular.otf"; path = "../Aleo-Regular.otf"; sourceTree = "<group>"; };
+		15D4E56419A2787500CBC85F /* Coral Beech Root new copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Coral Beech Root new copy.png"; sourceTree = "<group>"; };
+		15DB420119C0F9D000DD8B05 /* switchInForestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = switchInForestViewController.h; sourceTree = "<group>"; };
+		15DB420219C0F9D000DD8B05 /* switchInForestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = switchInForestViewController.m; sourceTree = "<group>"; };
+		15DB420419C0FE9C00DD8B05 /* newSwitchInForest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newSwitchInForest.png; sourceTree = "<group>"; };
+		15DB420619C10A7E00DD8B05 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		15DB420819C10A9C00DD8B05 /* buttonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonPressed.png; sourceTree = "<group>"; };
+		15DB420A19C1FAFF00DD8B05 /* new rocks at Lake edge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new rocks at Lake edge.png"; sourceTree = "<group>"; };
+		15DB420C19C27F4A00DD8B05 /* quarry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quarry.png; sourceTree = "<group>"; };
+		15DB420E19C2801800DD8B05 /* quarryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quarryViewController.h; sourceTree = "<group>"; };
+		15DB420F19C2801800DD8B05 /* quarryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = quarryViewController.m; sourceTree = "<group>"; };
+		15FC64EE198A91D400788822 /* TableForPopoverTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableForPopoverTableViewController.h; sourceTree = "<group>"; };
+		15FC64EF198A91D400788822 /* TableForPopoverTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableForPopoverTableViewController.m; sourceTree = "<group>"; };
+		15FC64F1199273FA00788822 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		155A2F7719770A29005753F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15FC64F2199273FA00788822 /* CoreImage.framework in Frameworks */,
+				15A12E9B1978430200E61B23 /* QuartzCore.framework in Frameworks */,
+				155A2FB519770A4A005753F9 /* MapKit.framework in Frameworks */,
+				155A2FB319770A43005753F9 /* CoreLocation.framework in Frameworks */,
+				155A2F8019770A29005753F9 /* CoreGraphics.framework in Frameworks */,
+				155A2F8219770A29005753F9 /* UIKit.framework in Frameworks */,
+				155A2F7E19770A29005753F9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		155A2F9819770A29005753F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				155A2F9D19770A29005753F9 /* XCTest.framework in Frameworks */,
+				155A2F9F19770A29005753F9 /* UIKit.framework in Frameworks */,
+				155A2F9E19770A29005753F9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		150231C61980208B001D5746 /* Annotation View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				15DB420019C0F99E00DD8B05 /* Switch in Forest */,
+				15379E9A1981A85F006A1A28 /* Cedars on Rocks */,
+				150231C7198020B0001D5746 /* Canopy Gap */,
+				150231C8198020C5001D5746 /* Nurse Stump */,
+				15BD76E21994334000868688 /* A Broken Ground */,
+				15BD76E41994336500868688 /* Ancient Shoreline */,
+				15BD76E51994337400868688 /* Björklunden Shoreline */,
+				150CFB2019A2570C0048879A /* Parasitic Plants */,
+				1579D2B819A2E541004BF522 /* Burl */,
+				1579D2BC19A2E567004BF522 /* Windmill */,
+				1579D2C019A2E583004BF522 /* Junipers */,
+				15DB421119C2809500DD8B05 /* Quarry */,
+			);
+			name = "Annotation View Controllers";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		150231C7198020B0001D5746 /* Canopy Gap */ = {
+			isa = PBXGroup;
+			children = (
+				150CA071197EE534008DED01 /* canopyGapViewController.h */,
+				150CA072197EE534008DED01 /* canopyGapViewController.m */,
+			);
+			name = "Canopy Gap";
+			sourceTree = "<group>";
+		};
+		150231C8198020C5001D5746 /* Nurse Stump */ = {
+			isa = PBXGroup;
+			children = (
+				150CA06E197EE278008DED01 /* nurseStumpViewController.h */,
+				150CA06F197EE278008DED01 /* nurseStumpViewController.m */,
+			);
+			name = "Nurse Stump";
+			sourceTree = "<group>";
+		};
+		150CFB2019A2570C0048879A /* Parasitic Plants */ = {
+			isa = PBXGroup;
+			children = (
+				150CFB1D19A257070048879A /* parasiticPlantViewController.h */,
+				150CFB1E19A257070048879A /* parasiticPlantViewController.m */,
+			);
+			name = "Parasitic Plants";
+			sourceTree = "<group>";
+		};
+		1516E4931986B370009E2C7F /* About Page View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				15379E95198180BA006A1A28 /* AboutViewController.h */,
+				15379E96198180BA006A1A28 /* AboutViewController.m */,
+			);
+			name = "About Page View Controller";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		1516E4941986B3D3009E2C7F /* Main Screen View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				155A2F9219770A29005753F9 /* ViewController.h */,
+				155A2F9319770A29005753F9 /* ViewController.m */,
+				15FC64EE198A91D400788822 /* TableForPopoverTableViewController.h */,
+				15FC64EF198A91D400788822 /* TableForPopoverTableViewController.m */,
+			);
+			name = "Main Screen View Controller";
+			sourceTree = "<group>";
+		};
+		15379E9A1981A85F006A1A28 /* Cedars on Rocks */ = {
+			isa = PBXGroup;
+			children = (
+				15379E9B1981A873006A1A28 /* cedarsOnRocksViewController.h */,
+				15379E9C1981A873006A1A28 /* cedarsOnRocksViewController.m */,
+			);
+			name = "Cedars on Rocks";
+			sourceTree = "<group>";
+		};
+		154749BB1979AEC500781CCB /* Annotations */ = {
+			isa = PBXGroup;
+			children = (
+				155A2FB619770BD1005753F9 /* Annotations.h */,
+				155A2FB719770BD1005753F9 /* Annotations.m */,
+			);
+			name = Annotations;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		154749BC1979AED400781CCB /* Overlay */ = {
+			isa = PBXGroup;
+			children = (
+				154749B31979ACCB00781CCB /* OverlayObject.h */,
+				154749B41979ACCB00781CCB /* OverlayObject.m */,
+				154749B61979AD3D00781CCB /* OverlayRender.h */,
+				154749B71979AD3D00781CCB /* OverlayRender.m */,
+			);
+			name = Overlay;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		154F999B1982023C0009EE3F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				15C2332419C325B900BAE7E6 /* Overlay with Labels.png */,
+				15DB420C19C27F4A00DD8B05 /* quarry.png */,
+				15DB420A19C1FAFF00DD8B05 /* new rocks at Lake edge.png */,
+				15DB420819C10A9C00DD8B05 /* buttonPressed.png */,
+				15DB420619C10A7E00DD8B05 /* button.png */,
+				15DB420419C0FE9C00DD8B05 /* newSwitchInForest.png */,
+				156A4F2519A677D300CBF74F /* About Page.png */,
+				156A4F2319A53C1100CBF74F /* Top Above.png */,
+				156A4F1E19A527C900CBF74F /* Simply Tap a Pin.png */,
+				156A4F1A19A5099300CBF74F /* IMG_0008.PNG */,
+				156A4F1619A5027C00CBF74F /* OverlayBest.png */,
+				156A4F1419A4FEA800CBF74F /* new menu bar.png */,
+				156A4F1219A4FDAE00CBF74F /* annotationMarkerDraft3.png */,
+				1544513319A3D41B00066AD8 /* Juniper.png */,
+				15C9294019A3ABE200F61028 /* windmill.png */,
+				15C9293A19A3969E00F61028 /* burl.png */,
+				15D4E56419A2787500CBC85F /* Coral Beech Root new copy.png */,
+				150CFB0F199D3F470048879A /* Ancient Shoreline.jpg */,
+				150CFB0B199D387C0048879A /* Overlay.png */,
+				150CFB19199D451C0048879A /* Gap Photo.png */,
+				154F999E1982023C0009EE3F /* annotationMarkerDraft2.png */,
+				154F99A81982023C0009EE3F /* cedarBark.png */,
+				150CFB17199D450B0048879A /* cedarOnRocks.png */,
+				150CFB15199D44EB0048879A /* cracks in rock.png */,
+				150CFB13199D44CF0048879A /* rocks at Lake edge.png */,
+				150CFB1B199D45390048879A /* Nurse Stump copy.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		155A2F7119770A29005753F9 = {
+			isa = PBXGroup;
+			children = (
+				155A2F8319770A29005753F9 /* Bjorklunden Trail Application */,
+				155A2FA219770A29005753F9 /* Bjorklunden Trail ApplicationTests */,
+				155A2F7C19770A29005753F9 /* Frameworks */,
+				155A2F7B19770A29005753F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		155A2F7B19770A29005753F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				155A2F7A19770A29005753F9 /* Bjorklunden Trail Application.app */,
+				155A2F9B19770A29005753F9 /* Bjorklunden Trail ApplicationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		155A2F7C19770A29005753F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15FC64F1199273FA00788822 /* CoreImage.framework */,
+				15A12E9A1978430200E61B23 /* QuartzCore.framework */,
+				155A2FB419770A4A005753F9 /* MapKit.framework */,
+				155A2FB219770A43005753F9 /* CoreLocation.framework */,
+				155A2F7D19770A29005753F9 /* Foundation.framework */,
+				155A2F7F19770A29005753F9 /* CoreGraphics.framework */,
+				155A2F8119770A29005753F9 /* UIKit.framework */,
+				155A2F9C19770A29005753F9 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		155A2F8319770A29005753F9 /* Bjorklunden Trail Application */ = {
+			isa = PBXGroup;
+			children = (
+				1516E4931986B370009E2C7F /* About Page View Controller */,
+				156A4F0719A4EC3800CBF74F /* How to Use View Controller */,
+				150231C61980208B001D5746 /* Annotation View Controllers */,
+				155A2F8C19770A29005753F9 /* AppDelegate.h */,
+				155A2F8D19770A29005753F9 /* AppDelegate.m */,
+				155A2F8F19770A29005753F9 /* Main.storyboard */,
+				150CFB0D199D3ACD0048879A /* Images.xcassets */,
+				1516E4941986B3D3009E2C7F /* Main Screen View Controller */,
+				154F999B1982023C0009EE3F /* Images */,
+				155A2F8419770A29005753F9 /* Supporting Files */,
+			);
+			path = "Bjorklunden Trail Application";
+			sourceTree = "<group>";
+		};
+		155A2F8419770A29005753F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15CB658D197DCEDF002FE3AF /* Fonts */,
+				154749BC1979AED400781CCB /* Overlay */,
+				154749BB1979AEC500781CCB /* Annotations */,
+				155A2F8519770A29005753F9 /* Bjorklunden Trail Application-Info.plist */,
+				154F99E21982026B0009EE3F /* cedarOnRocks.png */,
+				150231C919803A5C001D5746 /* Forget-Me-Not copy.png */,
+				150231BC19800E2E001D5746 /* blue.png */,
+				151925BE197D8A5E007AE26C /* green.png */,
+				150231C419801A68001D5746 /* Launch Image.png */,
+				155A2F8619770A29005753F9 /* InfoPlist.strings */,
+				155A2F8919770A29005753F9 /* main.m */,
+				155A2F8B19770A29005753F9 /* Bjorklunden Trail Application-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		155A2FA219770A29005753F9 /* Bjorklunden Trail ApplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				155A2FA819770A29005753F9 /* Bjorklunden_Trail_ApplicationTests.m */,
+				155A2FA319770A29005753F9 /* Supporting Files */,
+			);
+			path = "Bjorklunden Trail ApplicationTests";
+			sourceTree = "<group>";
+		};
+		155A2FA319770A29005753F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				155A2FA419770A29005753F9 /* Bjorklunden Trail ApplicationTests-Info.plist */,
+				155A2FA519770A29005753F9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		156A4F0719A4EC3800CBF74F /* How to Use View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				156A4F0419A4EC2C00CBF74F /* howToUseViewController.h */,
+				156A4F0519A4EC2C00CBF74F /* howToUseViewController.m */,
+				156A4F2019A5299E00CBF74F /* HowtoWindmillViewController.h */,
+				156A4F2119A5299E00CBF74F /* HowtoWindmillViewController.m */,
+			);
+			name = "How to Use View Controller";
+			sourceTree = "<group>";
+		};
+		1579D2B819A2E541004BF522 /* Burl */ = {
+			isa = PBXGroup;
+			children = (
+				1579D2B519A2E520004BF522 /* burlViewController.h */,
+				1579D2B619A2E520004BF522 /* burlViewController.m */,
+			);
+			name = Burl;
+			sourceTree = "<group>";
+		};
+		1579D2BC19A2E567004BF522 /* Windmill */ = {
+			isa = PBXGroup;
+			children = (
+				1579D2B919A2E55F004BF522 /* windMillViewController.h */,
+				1579D2BA19A2E55F004BF522 /* windMillViewController.m */,
+			);
+			name = Windmill;
+			sourceTree = "<group>";
+		};
+		1579D2C019A2E583004BF522 /* Junipers */ = {
+			isa = PBXGroup;
+			children = (
+				1579D2BD19A2E57F004BF522 /* JunipersViewController.h */,
+				1579D2BE19A2E57F004BF522 /* JunipersViewController.m */,
+			);
+			name = Junipers;
+			sourceTree = "<group>";
+		};
+		15BD76E21994334000868688 /* A Broken Ground */ = {
+			isa = PBXGroup;
+			children = (
+				15BD76D91994331500868688 /* CracksViewController.h */,
+				15BD76DA1994331500868688 /* CracksViewController.m */,
+			);
+			name = "A Broken Ground";
+			sourceTree = "<group>";
+		};
+		15BD76E41994336500868688 /* Ancient Shoreline */ = {
+			isa = PBXGroup;
+			children = (
+				15BD76DC1994332800868688 /* CliffsViewController.h */,
+				15BD76DD1994332800868688 /* CliffsViewController.m */,
+			);
+			name = "Ancient Shoreline";
+			sourceTree = "<group>";
+		};
+		15BD76E51994337400868688 /* Björklunden Shoreline */ = {
+			isa = PBXGroup;
+			children = (
+				15BD76DF1994333700868688 /* ShoreViewController.h */,
+				15BD76E01994333700868688 /* ShoreViewController.m */,
+			);
+			name = "Björklunden Shoreline";
+			sourceTree = "<group>";
+		};
+		15CB658D197DCEDF002FE3AF /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				15CB6581197DCC26002FE3AF /* Aleo-Bold.otf */,
+				15CB6582197DCC26002FE3AF /* Aleo-BoldItalic.otf */,
+				15CB6583197DCC26002FE3AF /* Aleo-Italic.otf */,
+				15CB6584197DCC26002FE3AF /* Aleo-Light.otf */,
+				15CB6585197DCC26002FE3AF /* Aleo-LightItalic.otf */,
+				15CB6586197DCC26002FE3AF /* Aleo-Regular.otf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		15DB420019C0F99E00DD8B05 /* Switch in Forest */ = {
+			isa = PBXGroup;
+			children = (
+				15DB420119C0F9D000DD8B05 /* switchInForestViewController.h */,
+				15DB420219C0F9D000DD8B05 /* switchInForestViewController.m */,
+			);
+			name = "Switch in Forest";
+			sourceTree = "<group>";
+		};
+		15DB421119C2809500DD8B05 /* Quarry */ = {
+			isa = PBXGroup;
+			children = (
+				15DB420E19C2801800DD8B05 /* quarryViewController.h */,
+				15DB420F19C2801800DD8B05 /* quarryViewController.m */,
+			);
+			name = Quarry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		155A2F7919770A29005753F9 /* Bjorklunden Trail Application */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 155A2FAC19770A29005753F9 /* Build configuration list for PBXNativeTarget "Bjorklunden Trail Application" */;
+			buildPhases = (
+				155A2F7619770A29005753F9 /* Sources */,
+				155A2F7719770A29005753F9 /* Frameworks */,
+				155A2F7819770A29005753F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bjorklunden Trail Application";
+			productName = "Bjorklunden Trail Application";
+			productReference = 155A2F7A19770A29005753F9 /* Bjorklunden Trail Application.app */;
+			productType = "com.apple.product-type.application";
+		};
+		155A2F9A19770A29005753F9 /* Bjorklunden Trail ApplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 155A2FAF19770A29005753F9 /* Build configuration list for PBXNativeTarget "Bjorklunden Trail ApplicationTests" */;
+			buildPhases = (
+				155A2F9719770A29005753F9 /* Sources */,
+				155A2F9819770A29005753F9 /* Frameworks */,
+				155A2F9919770A29005753F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				155A2FA119770A29005753F9 /* PBXTargetDependency */,
+			);
+			name = "Bjorklunden Trail ApplicationTests";
+			productName = "Bjorklunden Trail ApplicationTests";
+			productReference = 155A2F9B19770A29005753F9 /* Bjorklunden Trail ApplicationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		155A2F7219770A29005753F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Gislawill;
+				TargetAttributes = {
+					155A2F9A19770A29005753F9 = {
+						TestTargetID = 155A2F7919770A29005753F9;
+					};
+				};
+			};
+			buildConfigurationList = 155A2F7519770A29005753F9 /* Build configuration list for PBXProject "Bjorklunden Trail Application" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 155A2F7119770A29005753F9;
+			productRefGroup = 155A2F7B19770A29005753F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				155A2F7919770A29005753F9 /* Bjorklunden Trail Application */,
+				155A2F9A19770A29005753F9 /* Bjorklunden Trail ApplicationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		155A2F7819770A29005753F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				156A4F2419A53C1100CBF74F /* Top Above.png in Resources */,
+				150CFB14199D44CF0048879A /* rocks at Lake edge.png in Resources */,
+				15DB420B19C1FB0000DD8B05 /* new rocks at Lake edge.png in Resources */,
+				15CB658B197DCC26002FE3AF /* Aleo-LightItalic.otf in Resources */,
+				150CFB16199D44EB0048879A /* cracks in rock.png in Resources */,
+				1544513419A3D41B00066AD8 /* Juniper.png in Resources */,
+				15CB658A197DCC26002FE3AF /* Aleo-Light.otf in Resources */,
+				154F99E31982026B0009EE3F /* cedarOnRocks.png in Resources */,
+				156A4F1519A4FEA800CBF74F /* new menu bar.png in Resources */,
+				15C9294119A3ABE200F61028 /* windmill.png in Resources */,
+				15CB6589197DCC26002FE3AF /* Aleo-Italic.otf in Resources */,
+				155A2F8819770A29005753F9 /* InfoPlist.strings in Resources */,
+				151925BF197D8A5E007AE26C /* green.png in Resources */,
+				150CFB18199D450B0048879A /* cedarOnRocks.png in Resources */,
+				15C9293B19A3969E00F61028 /* burl.png in Resources */,
+				156A4F1319A4FDAE00CBF74F /* annotationMarkerDraft3.png in Resources */,
+				15DB420719C10A7E00DD8B05 /* button.png in Resources */,
+				150231BD19800E2E001D5746 /* blue.png in Resources */,
+				150CFB0C199D387C0048879A /* Overlay.png in Resources */,
+				15C2332519C325B900BAE7E6 /* Overlay with Labels.png in Resources */,
+				155A2F9119770A29005753F9 /* Main.storyboard in Resources */,
+				15DB420519C0FE9C00DD8B05 /* newSwitchInForest.png in Resources */,
+				150231C519801A68001D5746 /* Launch Image.png in Resources */,
+				156A4F1F19A527C900CBF74F /* Simply Tap a Pin.png in Resources */,
+				156A4F1719A5027C00CBF74F /* OverlayBest.png in Resources */,
+				156A4F2619A677D300CBF74F /* About Page.png in Resources */,
+				150231CA19803A5D001D5746 /* Forget-Me-Not copy.png in Resources */,
+				154F99C11982023C0009EE3F /* annotationMarkerDraft2.png in Resources */,
+				150CFB1C199D45390048879A /* Nurse Stump copy.png in Resources */,
+				15D4E56519A2787500CBC85F /* Coral Beech Root new copy.png in Resources */,
+				156A4F1B19A5099300CBF74F /* IMG_0008.PNG in Resources */,
+				150CFB1A199D451C0048879A /* Gap Photo.png in Resources */,
+				15CB6587197DCC26002FE3AF /* Aleo-Bold.otf in Resources */,
+				150CFB10199D3F470048879A /* Ancient Shoreline.jpg in Resources */,
+				15DB420D19C27F4A00DD8B05 /* quarry.png in Resources */,
+				150CFB0E199D3ACE0048879A /* Images.xcassets in Resources */,
+				154F99CB1982023C0009EE3F /* cedarBark.png in Resources */,
+				15DB420919C10A9C00DD8B05 /* buttonPressed.png in Resources */,
+				15CB6588197DCC26002FE3AF /* Aleo-BoldItalic.otf in Resources */,
+				15CB658C197DCC26002FE3AF /* Aleo-Regular.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		155A2F9919770A29005753F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				155A2FA719770A29005753F9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		155A2F7619770A29005753F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				156A4F2219A5299E00CBF74F /* HowtoWindmillViewController.m in Sources */,
+				156A4F0619A4EC2C00CBF74F /* howToUseViewController.m in Sources */,
+				155A2F9419770A29005753F9 /* ViewController.m in Sources */,
+				155A2F8E19770A29005753F9 /* AppDelegate.m in Sources */,
+				150CA070197EE278008DED01 /* nurseStumpViewController.m in Sources */,
+				1579D2BB19A2E55F004BF522 /* windMillViewController.m in Sources */,
+				1579D2B719A2E520004BF522 /* burlViewController.m in Sources */,
+				155A2FB819770BD1005753F9 /* Annotations.m in Sources */,
+				15FC64F0198A91D400788822 /* TableForPopoverTableViewController.m in Sources */,
+				15379E9D1981A873006A1A28 /* cedarsOnRocksViewController.m in Sources */,
+				15DB420319C0F9D000DD8B05 /* switchInForestViewController.m in Sources */,
+				15BD76E11994333700868688 /* ShoreViewController.m in Sources */,
+				150CFB1F19A257070048879A /* parasiticPlantViewController.m in Sources */,
+				15BD76DE1994332800868688 /* CliffsViewController.m in Sources */,
+				154749B51979ACCB00781CCB /* OverlayObject.m in Sources */,
+				15BD76DB1994331500868688 /* CracksViewController.m in Sources */,
+				15379E97198180BA006A1A28 /* AboutViewController.m in Sources */,
+				154749B81979AD3D00781CCB /* OverlayRender.m in Sources */,
+				15DB421019C2801800DD8B05 /* quarryViewController.m in Sources */,
+				150CA073197EE534008DED01 /* canopyGapViewController.m in Sources */,
+				1579D2BF19A2E57F004BF522 /* JunipersViewController.m in Sources */,
+				155A2F8A19770A29005753F9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		155A2F9719770A29005753F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				155A2FA919770A29005753F9 /* Bjorklunden_Trail_ApplicationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		155A2FA119770A29005753F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 155A2F7919770A29005753F9 /* Bjorklunden Trail Application */;
+			targetProxy = 155A2FA019770A29005753F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		155A2F8619770A29005753F9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				155A2F8719770A29005753F9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		155A2F8F19770A29005753F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				155A2F9019770A29005753F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		155A2FA519770A29005753F9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				155A2FA619770A29005753F9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		155A2FAA19770A29005753F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		155A2FAB19770A29005753F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		155A2FAD19770A29005753F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bjorklunden Trail Application/Bjorklunden Trail Application-Prefix.pch";
+				INFOPLIST_FILE = "Bjorklunden Trail Application/Bjorklunden Trail Application-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		155A2FAE19770A29005753F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bjorklunden Trail Application/Bjorklunden Trail Application-Prefix.pch";
+				INFOPLIST_FILE = "Bjorklunden Trail Application/Bjorklunden Trail Application-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		155A2FB019770A29005753F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bjorklunden Trail Application.app/Bjorklunden Trail Application";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bjorklunden Trail Application/Bjorklunden Trail Application-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Bjorklunden Trail ApplicationTests/Bjorklunden Trail ApplicationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		155A2FB119770A29005753F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bjorklunden Trail Application.app/Bjorklunden Trail Application";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bjorklunden Trail Application/Bjorklunden Trail Application-Prefix.pch";
+				INFOPLIST_FILE = "Bjorklunden Trail ApplicationTests/Bjorklunden Trail ApplicationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		155A2F7519770A29005753F9 /* Build configuration list for PBXProject "Bjorklunden Trail Application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				155A2FAA19770A29005753F9 /* Debug */,
+				155A2FAB19770A29005753F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		155A2FAC19770A29005753F9 /* Build configuration list for PBXNativeTarget "Bjorklunden Trail Application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				155A2FAD19770A29005753F9 /* Debug */,
+				155A2FAE19770A29005753F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		155A2FAF19770A29005753F9 /* Build configuration list for PBXNativeTarget "Bjorklunden Trail ApplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				155A2FB019770A29005753F9 /* Debug */,
+				155A2FB119770A29005753F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 155A2F7219770A29005753F9 /* Project object */;
+}
